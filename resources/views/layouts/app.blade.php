@@ -38,7 +38,7 @@ label {
 }
 
 input[type=submit] {
-  background-color: #4CAF50;
+  background-color: blue;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -46,9 +46,11 @@ input[type=submit] {
   cursor: pointer;
   float: right;
 }
-
+.link a:hover{
+  background-color:  #4CAF50;
+}
 input[type=submit]:hover {
-  background-color: blue;
+  background-color:  #4CAF50;
 }
 
 .container {

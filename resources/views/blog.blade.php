@@ -1,14 +1,14 @@
 @extends('layouts.app');
 @section('content')
 
-<div style="width: 90%; margin: 1rem auto;">
+<div style="width: 85%; margin: 1rem auto;" class="link">
 <a href="/list" style="width: 100px; text-align:center;padding:1rem 1rem; margin: auto; background:blue;color:azure; border-radius:19px ">View Posts</a>
 
 </div>
 
-<h1 style="width: 90%; text-align:center; margin:auto; background:blue;color:azure;">Donnex at Mhub assignment</h1>
+<h1 style="width: 85%; text-align:center; margin:auto; background:blue;color:azure;">Donnex at Mhub assignment</h1>
 
-<p style="width: 90%; text-align:center; margin:auto; background:blue;color:azure;"> inserting Data to database</p>
+<p style="width: 85%; text-align:center; margin:auto; background:blue;color:azure;"> inserting Data to database</p>
 
 <div class="container">
   <form action="submit" method="POST">
@@ -35,10 +35,8 @@
   </div>
   </form>
 
-  <p style="width: 90%; text-align:center; margin:auto; background:blue;color:azure;"> After upload click view button on top to see you post</p>
+  <p style="width: 85%; text-align:center; margin:auto; background:blue;color:azure;"> After upload click view button on top to see you post</p>
 
 </div>
-
-<p style="width: 90%;height:10vh; text-align:center; padding-top:1rem ; margin: auto; background:blue;color:azure;"> &copy;2021: Mhub <span>email: <a href="mailto:dthyolerak1.com@gmail.com">dthyolerak1.com@gmail.com</a></span></p>
 
 @endsection

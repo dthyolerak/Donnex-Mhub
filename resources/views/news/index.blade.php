@@ -1,3 +1,7 @@
+@extends('layouts.app');
+@section('content')
+
+
 <h1 style="width: 70%; text-align:center; margin:auto; background:blue;color:azure;">Donnex at Mhub assignment</h1>
 
 <table border="1" width="70%" height="80vh" align="center">
@@ -20,3 +24,7 @@
     @endforeach
 </table>
 <p style="width: 70%; text-align:center; margin:auto; background:blue;color:azure;">displaying data from database</p>
+
+
+<p style="width: 85%;height:10vh; text-align:center; padding-top:1rem ; margin: 1rem auto; background:blue;color:azure;"> &copy;2021: Mhub <span>email: <a href="mailto:dthyolerak1.com@gmail.com">dthyolerak1.com@gmail.com</a></span></p>
+@endsection
